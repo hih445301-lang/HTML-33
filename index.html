@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#29236f">
+  <meta name="description" content="Discover everyday fashion and lifestyle favorites at Urban Cart. Fresh styles, thoughtful details, and free shipping over $50.">
+  <title>Urban Cart — Find your everyday favorite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <p>Good things, delivered free <span>—</span> Free shipping on orders over $50</p>
+    <a href="#offers">Explore this week's offers <span aria-hidden="true">→</span></a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#" aria-label="Urban Cart home">
+        <span class="brand-mark" aria-hidden="true">u</span>
+        <span>urban<span class="brand-light">cart</span><i>.</i></span>
+      </a>
+
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+      <label class="menu-button" for="menu-toggle" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <form class="search" role="search" action="#">
+        <label class="sr-only" for="site-search">Search products</label>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+        <input id="site-search" type="search" placeholder="Search for anything...">
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="header-actions">
+        <a class="icon-link account-link" href="#contact" aria-label="Your account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"></circle><path d="M5 20c.5-3.5 3.2-5.5 7-5.5s6.5 2 7 5.5"></path></svg>
+          <span>Account</span>
+        </a>
+        <a class="icon-link" href="#featured" aria-label="Your wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 8.8c0 4.1-8.5 10-8.5 10s-8.5-5.9-8.5-10a4.5 4.5 0 0 1 8.5-2.1 4.5 4.5 0 0 1 8.5 2.1Z"></path></svg>
+          <span>Wishlist</span>
+        </a>
+        <a class="icon-link cart-link" href="#featured" aria-label="Shopping cart, 2 items">
+          <span class="cart-icon-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.5L21 8H6"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+            <span class="cart-count">2</span>
+          </span>
+          <span>Cart</span>
+        </a>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#offers">Offers <span class="nav-hot">HOT</span></a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> A little something for your everyday</span>
+        <h1 id="hero-title">Make room for<br>your <span>new favorite.</span></h1>
+        <p>Good style, thoughtful details, and all the little things that make a day feel like yours.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#featured">Shop the collection <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#categories">Explore categories <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=80&q=80" alt="">
+          </div>
+          <span><strong>4.9/5</strong> from 2,400+ happy customers</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=85" alt="Friends exploring a colorful fashion collection">
+        <div class="hero-image-wash"></div>
+        <div class="hero-sticker"><span>GOOD<br>VIBES</span><span class="sticker-star">✳</span></div>
+        <div class="hero-note">
+          <span class="note-icon">✦</span>
+          <span><strong>Fresh finds</strong><small>Just landed for you</small></span>
+          <span class="note-arrow">↗</span>
+        </div>
+        <div class="hero-caption">YOUR EVERYDAY, ELEVATED <span>·</span> EST. 2020</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Shopping benefits">
+      <div class="container trust-inner">
+        <div class="trust-item"><span class="trust-icon">✧</span><span><strong>Curated with care</strong><small>Only the good stuff</small></span></div>
+        <div class="trust-item"><span class="trust-icon">↗</span><span><strong>Easy, free returns</strong><small>30 days to decide</small></span></div>
+        <div class="trust-item"><span class="trust-icon">♡</span><span><strong>Made for real life</strong><small>Quality you can feel</small></span></div>
+        <div class="trust-item"><span class="trust-icon">⌑</span><span><strong>Safe & secure</strong><small>Shop with confidence</small></span></div>
+      </div>
+    </section>
+
+    <section class="section container categories-section" id="categories">
+      <div class="section-heading">
+        <div><span class="eyebrow">A good place to start</span><h2>Shop by <span>category</span></h2></div>
+        <a class="text-link" href="#featured">View all categories <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="#featured">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=500&q=80" alt="Women's contemporary fashion">
+          <span class="category-overlay"></span><span class="category-info"><strong>Women</strong><small>124 items <b>↗</b></small></span>
+        </a>
+        <a class="category-card" href="#featured">
+          <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=80" alt="Men's casual fashion">
+          <span class="category-overlay"></span><span class="category-info"><strong>Men</strong><small>96 items <b>↗</b></small></span>
+        </a>
+        <a class="category-card" href="#featured">
+          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=500&q=80" alt="Stylish shoes">
+          <span class="category-overlay"></span><span class="category-info"><strong>Shoes</strong><small>58 items <b>↗</b></small></span>
+        </a>
+        <a class="category-card" href="#featured">
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=500&q=80" alt="Gold-toned accessories">
+          <span class="category-overlay"></span><span class="category-info"><strong>Accessories</strong><small>82 items <b>↗</b></small></span>
+        </a>
+        <a class="category-card" href="#featured">
+          <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=500&q=80" alt="Thoughtful home decor">
+          <span class="category-overlay"></span><span class="category-info"><strong>Home</strong><small>47 items <b>↗</b></small></span>
+        </a>
+        <a class="category-card" href="#featured">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80" alt="Everyday lifestyle finds">
+          <span class="category-overlay"></span><span class="category-info"><strong>Lifestyle</strong><small>63 items <b>↗</b></small></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section container offers-section" id="offers">
+      <div class="section-heading">
+        <div><span class="eyebrow">A little treat for you</span><h2>Good things, <span>great prices.</span></h2></div>
+        <a class="text-link" href="#featured">See all offers <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="offer-grid">
+        <a href="#featured" class="offer-card offer-summer">
+          <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80" alt="Bright summer outfit">
+          <span class="offer-shade"></span>
+          <span class="offer-content"><span class="offer-kicker">SUNSHINE LOOKS GOOD ON YOU</span><strong>Summer Sale<br>up to 50% off</strong><span class="offer-cta">Shop the sale <b>→</b></span></span>
+          <span class="offer-pill">LIMITED TIME</span>
+        </a>
+        <a href="#featured" class="offer-card offer-new">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80" alt="Fresh seasonal fashion arrivals">
+          <span class="offer-shade"></span>
+          <span class="offer-content"><span class="offer-kicker">THE NEW-SEASON EDIT</span><strong>New arrivals.<br>Same good energy.</strong><span class="offer-cta">Meet your new fave <b>→</b></span></span>
+          <span class="offer-pill offer-pill-light">JUST DROPPED</span>
+        </a>
+        <a href="#featured" class="offer-card offer-bogo">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80" alt="Two friends in coordinated outfits">
+          <span class="offer-shade"></span>
+          <span class="offer-content"><span class="offer-kicker">TWICE THE LOVE</span><strong>Buy 1, get 1<br>50% off</strong><span class="offer-cta">Find a pair <b>→</b></span></span>
+          <span class="offer-pill">GOOD PAIRINGS</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="featured">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">The people have spoken</span><h2>Community <span>favorites.</span></h2></div>
+          <div class="product-tabs" aria-label="Product collections"><a class="selected" href="#featured">Popular</a><a href="#featured">New in</a><a href="#featured">On sale</a></div>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80" alt="Sienna relaxed-fit linen dress"><span class="product-tag tag-coral">BESTSELLER</span><span class="wishlist" aria-label="Add Sienna linen dress to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">WOMEN · CLOTHING</span><h3><a href="#contact">Sienna linen day dress</a></h3><div class="rating"><span>★★★★★</span> <small>(128)</small></div><div class="product-price"><strong>$68.00</strong><del>$86.00</del><span class="price-off">-21%</span></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="Everyday organic cotton tee"><span class="product-tag tag-indigo">NEW IN</span><span class="wishlist" aria-label="Add everyday cotton tee to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">MEN · CLOTHING</span><h3><a href="#contact">Everyday organic cotton tee</a></h3><div class="rating"><span>★★★★★</span> <small>(84)</small></div><div class="product-price"><strong>$32.00</strong></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80" alt="Retro-inspired everyday sneakers"><span class="product-tag tag-coral">20% OFF</span><span class="wishlist" aria-label="Add everyday sneakers to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">SHOES · UNISEX</span><h3><a href="#contact">Sunday retro sneakers</a></h3><div class="rating"><span>★★★★★</span> <small>(56)</small></div><div class="product-price"><strong>$72.00</strong><del>$90.00</del><span class="price-off">-20%</span></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="Everyday gold hoop earrings"><span class="product-tag tag-soft">CUSTOMER LOVE</span><span class="wishlist" aria-label="Add gold hoop earrings to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">ACCESSORIES · JEWELRY</span><h3><a href="#contact">Little something gold hoops</a></h3><div class="rating"><span>★★★★★</span> <small>(201)</small></div><div class="product-price"><strong>$28.00</strong></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80" alt="Lightweight colorful running sneakers"><span class="product-tag tag-coral">25% OFF</span><span class="wishlist" aria-label="Add weekend sneakers to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">SHOES · WOMEN</span><h3><a href="#contact">Weekend pace sneakers</a></h3><div class="rating"><span>★★★★★</span> <small>(73)</small></div><div class="product-price"><strong>$60.00</strong><del>$80.00</del><span class="price-off">-25%</span></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=700&q=80" alt="Relaxed striped cotton shirt"><span class="product-tag tag-indigo">JUST IN</span><span class="wishlist" aria-label="Add easy stripe shirt to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">MEN · CLOTHING</span><h3><a href="#contact">The easy stripe shirt</a></h3><div class="rating"><span>★★★★★</span> <small>(42)</small></div><div class="product-price"><strong>$54.00</strong></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=700&q=80" alt="Minimal ceramic vase for the home"><span class="product-tag tag-soft">SMALL-BATCH</span><span class="wishlist" aria-label="Add ceramic vase to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">HOME · DECOR</span><h3><a href="#contact">Sunday morning ceramic vase</a></h3><div class="rating"><span>★★★★★</span> <small>(39)</small></div><div class="product-price"><strong>$38.00</strong></div></div>
+          </article>
+          <article class="product-card">
+            <a class="product-photo" href="#contact"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80" alt="Structured everyday shoulder bag"><span class="product-tag tag-coral">BESTSELLER</span><span class="wishlist" aria-label="Add everyday shoulder bag to wishlist">♡</span></a>
+            <div class="product-details"><span class="product-category">ACCESSORIES · BAGS</span><h3><a href="#contact">On-the-go shoulder bag</a></h3><div class="rating"><span>★★★★★</span> <small>(112)</small></div><div class="product-price"><strong>$74.00</strong><del>$92.00</del><span class="price-off">-20%</span></div></div>
+          </article>
+        </div>
+        <div class="center-action"><a class="button button-outline" href="#categories">Discover all the good stuff <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+
+    <section class="quote-section" id="reviews">
+      <div class="container quote-inner">
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <div class="quote-content">
+          <span class="eyebrow">A little love from our community</span>
+          <blockquote>“Shopping at Urban Cart just feels easy. Everything is thoughtfully picked, beautifully made, and actually fits into my life.”</blockquote>
+          <div class="quote-byline"><div class="quote-avatar">JM</div><span><strong>Jamie M.</strong><small>Verified customer · Portland, OR</small></span></div>
+        </div>
+        <div class="quote-score"><strong>4.9<span>/5</span></strong><div class="rating-stars">★★★★★</div><small>from 2,400+ reviews</small></div>
+      </div>
+    </section>
+
+    <section class="newsletter-section container">
+      <div class="newsletter-card">
+        <div class="newsletter-decoration" aria-hidden="true">✳</div>
+        <div class="newsletter-copy"><span class="eyebrow">The good stuff, occasionally</span><h2>Make your inbox<br>a <span>happy place.</span></h2><p>Fresh finds, feel-good offers, and a little inspiration. No noise, promise.</p></div>
+        <form class="newsletter-form" action="#">
+          <label class="sr-only" for="newsletter-email">Your email address</label>
+          <input id="newsletter-email" type="email" placeholder="Your email address" required>
+          <button class="button button-primary" type="submit">Count me in <span aria-hidden="true">→</span></button>
+          <small>By subscribing, you agree to our <a href="#contact">Privacy Policy</a>. Unsubscribe any time.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-main">
+      <div class="footer-about">
+        <a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">u</span><span>urban<span class="brand-light">cart</span><i>.</i></span></a>
+        <p>Everyday favorites, thoughtfully found. A little more you in everything you choose.</p>
+        <div class="social-links" aria-label="Social media"><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="Pinterest">p</a><a href="#contact" aria-label="TikTok">tk</a></div>
+      </div>
+      <div class="footer-column"><h3>Explore</h3><a href="#categories">Women</a><a href="#categories">Men</a><a href="#categories">Shoes & accessories</a><a href="#categories">Home & lifestyle</a><a href="#offers">Offers</a></div>
+      <div class="footer-column"><h3>Here to help</h3><a href="#contact">Contact us</a><a href="#contact">Shipping & returns</a><a href="#contact">FAQs</a><a href="#contact">Track your order</a><a href="#contact">Size guide</a></div>
+      <div class="footer-column footer-contact"><h3>Say hello</h3><p>Questions, kind words, or just want to chat?</p><a href="mailto:hello@urbancart.example">hello@urbancart.example</a><small>Mon–Fri, 9am–5pm PST</small></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2025 Urban Cart. Made for everyday.</span><div><a href="#contact">Privacy</a><a href="#contact">Terms</a><a href="#contact">Accessibility</a></div><span class="payment-note">Secure checkout · Visa · Mastercard · PayPal</span></div>
+  </footer>
+</body>
+</html>
